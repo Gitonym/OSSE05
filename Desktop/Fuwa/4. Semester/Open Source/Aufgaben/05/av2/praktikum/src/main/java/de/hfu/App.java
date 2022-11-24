@@ -1,0 +1,14 @@
+package de.hfu;
+
+import java.util.Scanner;
+
+public class App 
+{
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter your text: ");
+        String input = scan.nextLine();
+        System.out.println(input.toUpperCase());
+    }
+}
+
